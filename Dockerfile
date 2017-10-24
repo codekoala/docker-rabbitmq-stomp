@@ -1,5 +1,5 @@
-FROM rabbitmq:3.6.0-management
-MAINTAINER Renato Silva <resilva87@outlook.com>
+FROM nanit/rabbitmq:143abaf
+MAINTAINER Josh VanderLinden <codekoala@gmail.com>
 
 RUN rabbitmq-plugins enable rabbitmq_stomp --offline
 
